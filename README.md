@@ -1,2 +1,4 @@
-# daechi-family-association
-daechi-family-association
+# 김해김씨 참판공파 대치종중회
+
+## 회칙
+[v2008 회칙](회칙/v2008_김해김씨_참판공파_대치종중회_회칙.md)
