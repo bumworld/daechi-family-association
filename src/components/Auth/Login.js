@@ -33,7 +33,7 @@ const Login = () => {
       }
 
       console.log('로그인 성공:', result.user);
-      navigate('/home');
+      navigate('/');
     } catch (error) {
       console.error('로그인 실패:', error);
     }
