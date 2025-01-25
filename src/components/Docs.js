@@ -8,12 +8,11 @@ const Docs = ({ docId = 'readme' }) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // GitHub Pages 스타일시트 로드
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = 'https://dfa.bumworld.net/assets/css/style.css?v=5657ed7e759084d6bec71bdacb338d6a00bd7954';
+    link.href = '/assets/css/github-markdown.css';
     document.head.appendChild(link);
-
+    
     fetch(`${process.env.PUBLIC_URL}/docs/${docId}.md`)
       .then(res => {
         if (!res.ok) throw new Error('Document not found');
